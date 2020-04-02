@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+
+.navbar {
+    background-color: lightgray;
+    display: flex;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar a {
+    color: #7f8481;
+    text-decoration: none;
+}
+
+.jumbotron {
+    background-color: silver;
+    border-radius: 5px;
+    padding: 30px 50px;
+    margin: 2% 10% 3% 10%;
+}
+
+.footer {
+    font-size: 80%;
+    padding: 0 10px;
+}
