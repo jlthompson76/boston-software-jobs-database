@@ -2,7 +2,6 @@ body {
     margin: 0;
 }
 
-
 .navbar {
     background-color: lightgray;
     display: flex;
@@ -20,11 +19,27 @@ body {
 .jumbotron {
     background-color: silver;
     border-radius: 5px;
-    padding: 30px 50px;
+    padding: 25px 50px;
     margin: 2% 10% 3% 10%;
+}
+
+#company-logos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 10% 0% 10%;
+}
+
+#company-logos img {
+    max-width: 200px;
+    max-height: 300px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
 }
 
 .footer {
     font-size: 80%;
-    padding: 0 10px;
+    margin: 10px;
 }
