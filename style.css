@@ -1,14 +1,17 @@
 body {
-    margin: 0;
+    font-size: .95em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: normal;
 }
 
 .navbar {
-    background-color: lightgray;
+    background-color: #f5f5f5;
     display: flex;
-}
-
-.navbar ul {
-    list-style-type: none;
+    align-items: center;
 }
 
 .navbar a {
@@ -16,30 +19,52 @@ body {
     text-decoration: none;
 }
 
+.home {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.login-signup {
+    display: flex;
+    justify-content: flex-end;
+    font-size: .75em;
+}
+
+.login-signup ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.login-signup li {
+    padding: 0 30px 0 0;
+}
+
 .jumbotron {
-    background-color: silver;
-    border-radius: 5px;
-    padding: 25px 50px;
-    margin: 2% 10% 3% 10%;
+    /* background-color: #f1f3f4;
+    border-radius: 5px; */
+    padding: 30px 60px;
+    margin: 15px 65px 20px 65px;
+}
+
+.footer {
+    font-size: .63em;
+    margin: 20px 0 0 10px;
 }
 
 #company-logos {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 0 10% 0% 10%;
+    margin: 0 65px;
 }
 
 #company-logos img {
-    max-width: 200px;
-    max-height: 300px;
-    padding: 10px;
-    margin: 5px;
+    max-width: 175px;
+    padding: 5px;
+    margin: 0 15px 15px 0;
     border: 1px solid lightgray;
     border-radius: 5px;
-}
-
-.footer {
-    font-size: 80%;
-    margin: 10px;
 }
