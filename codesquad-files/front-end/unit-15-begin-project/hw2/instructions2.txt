@@ -1,0 +1,11 @@
+HW: Update Boston Software Jobs to add company names and descriptions
+
+Using the files you created for the previous homework, add the ability for the user to display multiple companies on the Companies page. For each company, your app should collect a company name, logo, and a blurb about what the company does. Attached is a text file with blurbs and logo URLs for several companies.
+
+For this assignment you will need a loop, and you will probably loop through an array. However, from there you have choices: you may decide to use multiple arrays (images, company names, and blurbs, for example), or you may want to use an array of objects, where each object represents a single company. This aspect of the program design is up to you.
+
+Note: The mockup for this assignment uses a Bootstrap class called thumbnail (but this is optional). If you add the class thumbnail to the div holding each company's logo and text, it will create a little gray border with slightly rounded corners. It's also a good idea to give your div a width (say 20% or so).
+
+When finished, commit to a new repository, push to GitHub and submit the new URL below.
+
+BONUS: Instead of creating a new repository, create this update as a branch on your existing project repository. Push to GitHub and submit the URL below. Don't forget to tell us the branch name! smile

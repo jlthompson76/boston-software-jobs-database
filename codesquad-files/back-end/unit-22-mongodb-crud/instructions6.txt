@@ -1,0 +1,3 @@
+HW: BSJ. Complete all CRUD operations with MongoDB
+
+For this homework, continue with your last homework for Boston Software Jobs and complete all the steps in the "BONUS" section. See README.txt, Step 10 (line 101).

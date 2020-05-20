@@ -1,0 +1,3 @@
+Boston Software Jobs Database - add a server-based Object of Objects
+
+In this exercise you will move your data to the server.  The list of companies is an Object that contains other Objects.  Inside the attached folder, we have already created a basic server for you. There is a file called server.js that is the entry point.  You will need to add appropriate URL paths (endpoints) to handle browser requests. Refer to README.txt for specific instructions.
