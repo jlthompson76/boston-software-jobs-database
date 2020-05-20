@@ -19,14 +19,14 @@ These pages should include:
 * Navbar using flexbox
 * Fonts, text sizes, and colored boxes to match the mockups
 * Working links to connect the Companies page to the Landing page (through the BostonSWJobs link in upper left of the page), and connecting the Landing page to the Companies page through the "View all companies" link. You can leave the Login and Signup links blank for now.
-* When the user clicks the "Add a company" button on the Companies page, a pop-up should appear that asks for a URL to a corporate logo. You can use the file below **(URL list for corporate logos.txt)** for examples.
+* When the user clicks the "Add a company" button on the Companies page, a pop-up should appear that asks for a URL to a corporate logo. You can use the file below ([URL list for corporate logos.txt](./codesquad-files/front-end/unit-15-begin-project/hw1/URL%20list%20for%20corporate%20logos.txt)) for examples.
 * When the user pastes in a logo URL and hits Enter, the page should display the logo in the white area below the button (see mockup).
 * Optional: use Bootstrap "[jumbotron](https://getbootstrap.com/docs/4.0/components/jumbotron/)" and [button](https://getbootstrap.com/docs/4.0/components/buttons/) classes to quickly add a professional look. As you may recall, the first step in using Bootstrap is to add the Bootstrap CSS link (a CDN starting `https://maxcdn.bootstrapcdn.com...`) from their [Quick Start](https://getbootstrap.com/docs/4.0/getting-started/introduction/) page.
 * BONUS: allow the user to enter **multiple** corporate logos, and have all of them display in a list (Hint: this will use a loop)
 
 ### Update Boston Software Jobs to add company names and descriptions
 
-Using the files you created for the previous homework, add the ability for the user to display multiple companies on the Companies page. For each company, your app should collect a company name, logo, and a blurb about what the company does. Attached is a text file with blurbs and logo URLs for several companies.
+Using the files you created for the previous homework, add the ability for the user to display multiple companies on the Companies page. For each company, your app should collect a company name, logo, and a blurb about what the company does. Attached is a [text file with blurbs and logo URLs for several companies](./codesquad-files/front-end/unit-15-begin-project/hw2/logo-blurb-list.txt).
 
 For this assignment you will need a loop, and you will probably loop through an array. However, from there you have choices: you may decide to use multiple arrays (images, company names, and blurbs, for example), or you may want to use an array of objects, where each object represents a single company. This aspect of the program design is up to you.
 
@@ -77,12 +77,12 @@ This contains all the dependencies you will require to be able to launch the ser
 
 #### Tasks
 
-1. Create a '/' GET route. Use the .render() method to render the following HTML: `"<h1> Welcome to Boston Software Jobs </h1>"` so when the user goes to localhost:3000, they should see "Welcome to Boston Software Jobs"
+1. Create a '/' GET route. Use the `.render()` method to render the following HTML: `"<h1> Welcome to Boston Software Jobs </h1>"` so when the user goes to localhost:3000, they should see "Welcome to Boston Software Jobs"
 
-* Hint: You will need to create a file in the views directory and use that filename in the render() method.  
+* Hint: You will need to create a file in the views directory and use that filename in the `render()` method.  
     * You can call this file [index.ejs](./views/index.ejs)
 
-2. Create another route called '/jobs'. When the user visits 'localhost:3000/jobs', your server should display the name of all companies as an unordered list. You will need to create another file in your views directory and use that filename in the render() method.  
+2. Create another route called '/jobs'. When the user visits 'localhost:3000/jobs', your server should display the name of all companies as an unordered list. You will need to create another file in your views directory and use that filename in the `render()` method.  
     * You can call this file [jobs.ejs](./views/jobs.ejs)
 
 * Hint 1: You will need to send the names of the companies through render, like this: `response.render(FILE_NAME, {names: companies})`
